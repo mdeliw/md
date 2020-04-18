@@ -79,8 +79,6 @@ ssh -T git@github.com
 
 # if ever need to change passphrase
 ssh-keygen -p
-
-# For multiple
 ```
 
 #### # Flow

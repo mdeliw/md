@@ -4,7 +4,14 @@
 
 ---
 
-#### # Generating project
+## Maven variables
+
+```
+project.base.*
+project.build.*
+```
+
+## Generating project
 
 ```bash
 $ mvn archetype:generate -B -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.1 -DgroupId=org.deliwala -DartifactId=sample-project -DVersion=0.1-SNAPSHOT
@@ -19,7 +26,7 @@ $ mvn -q clean package
 $ mvn -X clean package
 ```
 
-#### # Compiler option
+## Compiler option
 
 ```bash
 $ mvn compile
@@ -37,7 +44,7 @@ $ mvn compile
 </plugin>
 ```
 
-#### # Skipping test
+## Skipping test
 
 Using surefire plugin:
 
@@ -61,18 +68,25 @@ $ mvn -q clean package -DskipTests
 $ mvn -q clean package -Dmaven.test.skip=true 
 ```
 
-#### # Executing program in mvn
+## Executing program in mvn
+
+### exec:java 
+
+Class provided in command line
 
 ```xml
-<!-- 1. basic version, exec:java -D<cl-args> -->
+<!-- exec:java -D<args> -->
 <plugin>
   <groupId>org.codehaus.mojo</groupId>
   <artifactId>exec-maven-plugin</artifactId>
   <version>?</version>
   <!-- no configuration, class injected from command line -->
 </plugin>
+```
 
-<!-- or 2. mainClass provided in pom, exec:java -->
+Class provided in pom
+
+```xml
 <plugin>
   <groupId>org.codehaus.mojo</groupId>
   <artifactId>exec-maven-plugin</artifactId>
@@ -81,8 +95,13 @@ $ mvn -q clean package -Dmaven.test.skip=true
     <mainClass>org.some.package.MainClass</mainClass>
   </configuration>
 </plugin>
+```
 
-<!-- extension to 2 wiring multiple mainClass, exec:java@App -->
+### exec:java@App
+
+Wire multiple main classes
+
+```xml
 <plugin>
   <groupId>org.codehaus.mojo</groupId>
   <artifactId>exec-maven-plugin</artifactId>
@@ -102,7 +121,11 @@ $ mvn -q clean package -Dmaven.test.skip=true
     </execution>
   </executions>
 </plugin>
+```
 
+Alternatively
+
+```xml
 <!-- or 3. using exec:java or exec:exec@run-app -->
 <plugin>
   <groupId>org.codehaus.mojo</groupId>
@@ -124,8 +147,11 @@ $ mvn -q clean package -Dmaven.test.skip=true
 	</execution>  
   </executions>
 </plugin>
+```
 
-<!-- or 3. using exec:exec -->
+### exec:exec
+
+```xml
 <plugin>
   <groupId>org.codehaus.mojo</groupId>
   <artifactId>exec-maven-plugin</artifactId>
@@ -153,8 +179,11 @@ $ mvn -q clean package -Dmaven.test.skip=true
   <port>8080</port>
   <args>...</args>
 </properties>
+```
 
-<!-- or 3. using exec:exec@App -->
+exec:exec@App
+
+```xml
 <plugin>
   <groupId>org.codehaus.mojo</groupId>
   <artifactId>exec-maven-plugin</artifactId>
@@ -200,6 +229,8 @@ $ mvn -q clean package -Dmaven.test.skip=true
 </plugin>
 ```
 
+## Examples
+
 ```bash
 # some examples run the program in the same jvm that loaded mvn.
 
@@ -218,14 +249,7 @@ $ mvn exec:exec
 $ mvn exec:exec@App1
 ```
 
-#### # Maven variables
-
-```
-project.base.*
-project.build.*
-```
-
-#### # Generating fat-jar
+## Generating fat-jar
 
 ```bash
 $ mvn package
@@ -233,107 +257,119 @@ $ java -jar <outputfolder>/fat.jar
 ```
 
 ```xml
-  <plugin>
+<plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-dependency-plugin</artifactId>
     <version>?</version>
     <executions>
-      <execution>
-        <id>copy-dependencies</id>
-        <phase>prepare-package</phase>
-        <goals>
-          <goal>copy-dependencies</goal>
-        </goals>
-        <configuration>          
-          <outputDirectory>
-          	${project.build.directory}/{$project.build.finalName}.lib
-          </outputDirectory>
-          <excludeArtfiacts>junit</excludeArtfiacts>
-          <overWriteIfNew>true</overWriteIfNew>
-        <configuration>
-      </execution>
+        <execution>
+            <id>copy-dependencies</id>
+            <phase>prepare-package</phase>
+            <goals>
+                <goal>copy-dependencies</goal>
+            </goals>
+            <configuration>          
+                <outputDirectory>
+                    ${project.build.directory}/{$project.build.finalName}.lib
+                </outputDirectory>
+                <excludeArtfiacts>junit</excludeArtfiacts>
+                <overWriteIfNew>true</overWriteIfNew>
+            </configuration>configuration>
+        </execution>
     </executions>
-  </plugin>
-<!-- or -->
-  <plugin>
+</plugin>
+```
+
+Or..
+
+```xml
+<plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-jar-plugin</artifactId>
     <version>3.0.2</version>
     <configuration>
-      <archive>
-        <manifest>
-          <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
-          <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
-          <addClasspath>true</addClasspath>
-          <classpathPrefix>${project.build.finalName}.lib</classpathPrefix>
-          <mainClass>some.package.App</mainClass>
-        </manifest>
-      </archive>
+        <archive>
+            <manifest>
+                <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+                <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
+                <addClasspath>true</addClasspath>
+                <classpathPrefix>${project.build.finalName}.lib</classpathPrefix>
+                <mainClass>some.package.App</mainClass>
+            </manifest>
+        </archive>
     </configuration>
-  </plugin>
-<!-- or assembly -->
-	<plugin>
+</plugin>
+```
+
+Or using `assembly`
+
+```xml
+<plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-assembly-plugin</artifactId>
     <executions>
-      <execution>
-        <phase>package</phase>
-        <goals>
-          <goal>single</goal>
-        </goals>
-        <configuration>
-          <archive>
-            <manifest>
-              <mainClass>
-                some.package.Class
-              </mainClass>
-            </manifest>
-          </archive>
-          <descriptorRefs>
-            <descriptorRef>jar-with-dependencies</descriptorRef>
-          </descriptorRefs>
-        </configuration>
-      </execution>
+        <execution>
+            <phase>package</phase>
+            <goals>
+                <goal>single</goal>
+            </goals>
+            <configuration>
+                <archive>
+                    <manifest>
+                        <mainClass>
+                            some.package.Class
+                        </mainClass>
+                    </manifest>
+                </archive>
+                <descriptorRefs>
+                    <descriptorRef>jar-with-dependencies</descriptorRef>
+                </descriptorRefs>
+            </configuration>
+        </execution>
     </executions>
-	</plugin>
-<!-- or shade -->
-	<plugin>
+</plugin>
+
+```
+
+Or using Shade
+
+```xml
+<plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-shade-plugin</artifactId>
     <executions>
-      <execution>
-        <phase>package</phase>
-        <goals>
-          <goal>shade</goal>
-        </goals>
-        <configuration>
-          <shadedArtifactAttached>true</shadedArtifactAttached>
-          <!-- default is <project-name>-<version>-shaded.jar -->
-          <finalName>user-${artifactId}-${version}</finalName>
-          <transformers>
-            <transformer implementation=
-                   "org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-              <mainClass>some.package.Class</mainClass>
-              <build-Number>123</buildNumber>
-            </transformer>
-          </transformers>
-          <filters>
-            <filter>
-              <artifact>*:*</artifact>
-              <excludes>
-                <exclude>META-INF/*.SF</exclude>
-                <exclude>META-INF/*.DSA</exclude>
-                <exclude>META-INF/*.RSA</exclude>
-              </excludes>
-            </filter>
-          </filters>
-        </configuration>
-      </execution>
+        <execution>
+            <phase>package</phase>
+            <goals>
+                <goal>shade</goal>
+            </goals>
+            <configuration>
+                <shadedArtifactAttached>true</shadedArtifactAttached>
+                <!-- default is <project-name>-<version>-shaded.jar -->
+                <finalName>user-${artifactId}-${version}</finalName>
+                <transformers>
+                    <transformer implementation=                        "org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                        <mainClass>some.package.Class</mainClass>
+                        <build-Number>123</buildNumber>
+                    </transformer>
+                </transformers>
+                <filters>
+                    <filter>
+                        <artifact>*:*</artifact>
+                        <excludes>
+                            <exclude>META-INF/*.SF</exclude>
+                            <exclude>META-INF/*.DSA</exclude>
+                            <exclude>META-INF/*.RSA</exclude>
+                        </excludes>
+                    </filter>
+                </filters>
+            </configuration>
+        </execution>
     </executions>
-	</plugin>
+</plugin>
 ```
 
-#### # Using profile
+## Using profile
 
 ```bash
 $ mvn -P<some-profile-name>
@@ -353,7 +389,7 @@ $ mvn -P<some-profile-name>
 </profiles>
 ```
 
-#### # Using auto clean
+## Using auto clean
 
 ```xml
 <plugin>
@@ -375,7 +411,7 @@ $ mvn -P<some-profile-name>
 
 ---
 
-#### # Using Vertx embedded
+## Using Vertx embedded
 
 > Vertx is embedded inside the program rather than used via verticle.
 
@@ -413,7 +449,7 @@ $ mvn -P<some-profile-name>
 </plugin>
 ```
 
-#### # Using Vertx verticle
+## Using Vertx verticle
 
 ```xml
 <properties>
@@ -486,7 +522,7 @@ $ mvn -P<some-profile-name>
 </plugin>
 ```
 
-#### # Using Vertx maven service factory
+## Using Vertx maven service factory
 
 > May not be recommended, as code depends on maven service factory.
 
@@ -509,7 +545,7 @@ $ vertx run io.vertx.examples.MyDeployingVerticle -cp target/maven-service-facto
 </dependency>
 ```
 
-#### # Reference
+## Reference
 
 - https://maven.apache.org/index.html
 - https://mincong-h.github.io/series/maven-plugins/
@@ -519,6 +555,7 @@ $ vertx run io.vertx.examples.MyDeployingVerticle -cp target/maven-service-facto
 - https://github.com/reactiverse/vertx-maven-plugin
 - https://github.com/vert-x3/vertx-examples
 
-#### # Pending
+## Pending
 
 - [ ] Nothing
+
