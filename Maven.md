@@ -646,6 +646,8 @@ mvn test-compile
 
 ### maven-dependency-plugin
 
+Provides goals to work with dependencies like copying, unpacking, analyzing, resolving and many more.
+
 ```xml
 <plugin>
     <groupId>org.apache.maven.plugins</groupId>
@@ -669,6 +671,71 @@ mvn test-compile
 
 We specify the goal *copy-dependencies*, which tells Maven to copy dependencies into the specified *outputDirectory*, in this case `/libs`.
 
+---
+
+https://crunchify.com/how-to-create-build-java-project-including-all-dependencies-using-maven-maven-resources-maven-dependency-maven-jar-plugin-tutorial/
+
+https://www.baeldung.com/maven-dependency-latest-version
+
+```xml
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-dependency-plugin</artifactId>
+    <version>3.1.1</version>
+    <executions>
+        <execution>
+            <id>dependency-analyze</id>
+            <phase>package</phase>
+            <goals>
+                <goal>analyze</goal>
+            </goals>
+            <configuration>
+                <failOnWarning>true</failOnWarning>
+                <ignoreNonCompile>true</ignoreNonCompile>
+                <ignoredDependencies>true</ignoredDependencies>
+                <outputXML>true</outputXML>
+                <ignoredUnusedDeclaredDependencies>
+                    <ignoredUnusedDeclaredDependency>commons-io:commons-io:jar:*</ignoredUnusedDeclaredDependency>
+                </ignoredUnusedDeclaredDependencies>
+                <ignoredUsedUndeclaredDependencies>
+                 <ignoredUsedUndeclaredDependency>org.apache.httpcomponents:httpcore:jar:*</ignoredUsedUndeclaredDependency>
+                </ignoredUsedUndeclaredDependencies>
+            </configuration>
+        </execution>
+
+        <execution>
+            <phase>validate</phase>
+            <goals>
+                <goal>copy</goal>
+            </goals>
+            <configuration>
+                <outputDirectory>${project.build.directory}/endorsed</outputDirectory>
+                <silent>true</silent>
+                <artifactItems>
+                    <artifactItem>
+                        <groupId>javax</groupId>
+                        <artifactId>javaee-endorsed-api</artifactId>
+                        <version>6.0</version>
+                        <type>jar</type>
+                    </artifactItem>
+                </artifactItems>
+            </configuration>
+        </execution>
+    </executions>
+</plugin>
+```
+
+```bash
+mvn dependency:help
+mvn dependency:help -Ddetail=true -Dgoal=analyze
+mvn help:describe -Dplugin="org.apache.maven.plugins:maven-dependency-plugin"
+mvn help:describe -Dplugin="org.apache.maven.plugins:maven-dependency-plugin" -Ddetail=true -Dgoal=analyze
+mvn dependency:analyze
+mvn dependency:resolve
+mvn dependency:tree
+mvn dependency:purge-local-repository
+```
+
 ### maven-jar-plugin
 
 This plugin provides the capability to build and sign jars. It compiles the java files under src/main/java and /src/main/resources/ and it *doesn't include the dependencies JAR files*.
@@ -683,7 +750,7 @@ This plugin provides the capability to build and sign jars. It compiles the java
                 <addClasspath>true</addClasspath>
                 <classpathPrefix>libs/</classpathPrefix>
                 <mainClass>
-                    com.baeldung.executable.ExecutableMavenJar
+                    com.some.main.Class
                 </mainClass>
             </manifest>
         </archive>
@@ -1342,73 +1409,6 @@ Generate reports information about the project.
         </reportSet>
     </reportSets>
 </plugin>
-```
-
-### maven-dependency-plugin
-
-Provides goals to work with dependencies like copying, unpacking, analyzing, resolving and many more.
-
-https://crunchify.com/how-to-create-build-java-project-including-all-dependencies-using-maven-maven-resources-maven-dependency-maven-jar-plugin-tutorial/
-
-https://www.baeldung.com/maven-dependency-latest-version
-
-```xml
-<plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-dependency-plugin</artifactId>
-    <version>3.1.1</version>
-    <executions>
-        <execution>
-            <id>dependency-analyze</id>
-            <phase>package</phase>
-            <goals>
-                <goal>analyze</goal>
-            </goals>
-            <configuration>
-                <failOnWarning>true</failOnWarning>
-                <ignoreNonCompile>true</ignoreNonCompile>
-                <ignoredDependencies>true</ignoredDependencies>
-                <outputXML>true</outputXML>
-                <ignoredUnusedDeclaredDependencies>
-                    <ignoredUnusedDeclaredDependency>commons-io:commons-io:jar:*</ignoredUnusedDeclaredDependency>
-                </ignoredUnusedDeclaredDependencies>
-                <ignoredUsedUndeclaredDependencies>
-                 <ignoredUsedUndeclaredDependency>org.apache.httpcomponents:httpcore:jar:*</ignoredUsedUndeclaredDependency>
-                </ignoredUsedUndeclaredDependencies>
-            </configuration>
-        </execution>
-
-        <execution>
-            <phase>validate</phase>
-            <goals>
-                <goal>copy</goal>
-            </goals>
-            <configuration>
-                <outputDirectory>${project.build.directory}/endorsed</outputDirectory>
-                <silent>true</silent>
-                <artifactItems>
-                    <artifactItem>
-                        <groupId>javax</groupId>
-                        <artifactId>javaee-endorsed-api</artifactId>
-                        <version>6.0</version>
-                        <type>jar</type>
-                    </artifactItem>
-                </artifactItems>
-            </configuration>
-        </execution>
-    </executions>
-</plugin>
-```
-
-```bash
-mvn dependency:help
-mvn dependency:help -Ddetail=true -Dgoal=analyze
-mvn help:describe -Dplugin="org.apache.maven.plugins:maven-dependency-plugin"
-mvn help:describe -Dplugin="org.apache.maven.plugins:maven-dependency-plugin" -Ddetail=true -Dgoal=analyze
-mvn dependency:analyze
-mvn dependency:resolve
-mvn dependency:tree
-mvn dependency:purge-local-repository
 ```
 
 ### versions-maven-plugin
