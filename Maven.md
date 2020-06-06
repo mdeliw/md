@@ -402,28 +402,6 @@ $ mvn -P<some-profile-name>
 </profiles>
 ```
 
-## Using auto clean
-
-```xml
-<plugin>
-  <artifactId>maven-clean-plugin</artifactId>
-  <configuration>
-    <skip>false</skip> <!-- true to skip -->
-  </configuration>
-  <executions>
-    <execution>
-      <id>auto-clean</id>
-      <phase>initialize</phase>
-      <goals>     
-        <goal>clean</goal>
-      </goals>
-    </execution>
-  </executions>
-</plugin>
-```
-
----
-
 ## Using Vertx embedded
 
 > Vertx is embedded inside the program rather than used via verticle.
@@ -1115,12 +1093,22 @@ The *clean* plugin is already included in the super POM and cleans the files and
     <artifactId>maven-clean-plugin</artifactId>
     <version>3.0.0</version>
     <configuration>
+	    <skip>false</skip> <!-- to skip use true -->
         <filesets>
             <fileset>
                 <directory>output-resources</directory>
             </fileset>
         </filesets>
     </configuration>
+    <executions>
+    	<execution>
+            <id>auto-clean</id>
+            <phase>initialize</phase>
+            <goals>     
+                <goal>clean</goal>
+            </goals>
+        </execution>
+    </executions>
 </plugin>
 ```
 
