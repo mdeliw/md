@@ -400,6 +400,7 @@ $ mvn -P<some-profile-name>
     <properties>...</properties>
   </profile>
 </profiles>
+
 ```
 
 ## Using Vertx embedded
@@ -538,18 +539,9 @@ $ vertx run io.vertx.examples.MyDeployingVerticle -cp target/maven-service-facto
 
 ## Plugins
 
-### Build lifecycle
+### Overview
 
-Here's a list of the goals that are bound to each phase of the *default* lifecycle:
-
-- *process-resources* -> *resources:resources*
-- *compile* -> *compiler:compile*
-- *process-test-resources* -> *resources:testResources*
-- *test-compile* -> *compiler:testCompile*
-- *test* -> *surefire:test*
-- *package* -> *ejb:ejb* or *ejb3:ejb3* or *jar:jar* or *par:par* or *rar:rar* or *war:war*
-- *install* -> *install:install*
-- *deploy* -> *deploy:deploy*
+https://www.baeldung.com/maven
 
 ### maven-resource-plugin
 
@@ -1352,6 +1344,98 @@ Generate reports information about the project.
 </plugin>
 ```
 
+### maven-dependency-plugin
+
+Provides goals to work with dependencies like copying, unpacking, analyzing, resolving and many more.
+
+https://crunchify.com/how-to-create-build-java-project-including-all-dependencies-using-maven-maven-resources-maven-dependency-maven-jar-plugin-tutorial/
+
+https://www.baeldung.com/maven-dependency-latest-version
+
+```xml
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-dependency-plugin</artifactId>
+    <version>3.1.1</version>
+    <executions>
+        <execution>
+            <id>dependency-analyze</id>
+            <phase>package</phase>
+            <goals>
+                <goal>analyze</goal>
+            </goals>
+            <configuration>
+                <failOnWarning>true</failOnWarning>
+                <ignoreNonCompile>true</ignoreNonCompile>
+                <ignoredDependencies>true</ignoredDependencies>
+                <outputXML>true</outputXML>
+                <ignoredUnusedDeclaredDependencies>
+                    <ignoredUnusedDeclaredDependency>commons-io:commons-io:jar:*</ignoredUnusedDeclaredDependency>
+                </ignoredUnusedDeclaredDependencies>
+                <ignoredUsedUndeclaredDependencies>
+                 <ignoredUsedUndeclaredDependency>org.apache.httpcomponents:httpcore:jar:*</ignoredUsedUndeclaredDependency>
+                </ignoredUsedUndeclaredDependencies>
+            </configuration>
+        </execution>
+
+        <execution>
+            <phase>validate</phase>
+            <goals>
+                <goal>copy</goal>
+            </goals>
+            <configuration>
+                <outputDirectory>${project.build.directory}/endorsed</outputDirectory>
+                <silent>true</silent>
+                <artifactItems>
+                    <artifactItem>
+                        <groupId>javax</groupId>
+                        <artifactId>javaee-endorsed-api</artifactId>
+                        <version>6.0</version>
+                        <type>jar</type>
+                    </artifactItem>
+                </artifactItems>
+            </configuration>
+        </execution>
+    </executions>
+</plugin>
+```
+
+```bash
+mvn dependency:help
+mvn dependency:help -Ddetail=true -Dgoal=analyze
+mvn help:describe -Dplugin="org.apache.maven.plugins:maven-dependency-plugin"
+mvn help:describe -Dplugin="org.apache.maven.plugins:maven-dependency-plugin" -Ddetail=true -Dgoal=analyze
+mvn dependency:analyze
+mvn dependency:resolve
+mvn dependency:tree
+mvn dependency:purge-local-repository
+```
+
+### versions-maven-plugin
+
+```xml
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>versions-maven-plugin</artifactId>
+            <version>2.7</version>
+            <configuration>
+                <excludes>
+                    <exclude>org.apache.commons:commons-collections4</exclude>
+                </excludes>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
+```
+
+```bash
+mvn versions:display-dependency-updates
+```
+
+
+
 ### hibernate-ehcache
 
 Second-level cache. https://www.baeldung.com/hibernate-second-level-cache
@@ -1372,6 +1456,7 @@ Provider *net.sf.ehcache*
 - org.jasypt - http://www.jasypt.org/
 - openpojo - https://github.com/OpenPojo/openpojo
 - commons-codec
+- org.ehcache
 - google-http-client - https://github.com/googleapis/google-http-java-client
 - Mockito-core - https://www.baeldung.com/mockito-core-vs-mockito-all
 - mockito-junit-jupiter
