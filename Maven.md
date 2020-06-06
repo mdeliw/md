@@ -70,7 +70,7 @@ $ mvn -q clean package -Dmaven.test.skip=true
 
 ## Executing program in mvn
 
-### exec:java 
+### `exec:java`
 
 Class provided in command line
 
@@ -86,6 +86,10 @@ Class provided in command line
 
 Class provided in pom
 
+```bash
+mvn exec:exec
+```
+
 ```xml
 <plugin>
   <groupId>org.codehaus.mojo</groupId>
@@ -97,9 +101,14 @@ Class provided in pom
 </plugin>
 ```
 
-### exec:java@App
+### `exec:java@App1`
 
 Wire multiple main classes
+
+```bash
+mvn exec:java@App1
+mvn exec:java@App2
+```
 
 ```xml
 <plugin>
@@ -123,7 +132,11 @@ Wire multiple main classes
 </plugin>
 ```
 
-Alternatively
+Alternatively 
+
+```bash
+mvn exec:exec@run-app
+```
 
 ```xml
 <!-- or 3. using exec:java or exec:exec@run-app -->
@@ -544,6 +557,39 @@ $ vertx run io.vertx.examples.MyDeployingVerticle -cp target/maven-service-facto
   <classifier>shaded</classifier>
 </dependency>
 ```
+
+## Plugins and Purpose
+
+- maven-resource-plugin
+- jaxws-maven-plugin
+- maven-checkstyle-plugin
+- maven-compiler-plugin
+- maven-jar-plugin
+- maven-assembly-plugin
+- maven-release-plugin
+- maven-dependency-plugin
+- maven-failsafe-plugin
+- maven-surefile-plugin
+- maven-pmd-plugin
+- cobertura-maven-plugin
+- findbugs-maven-plugin
+- jaxb2-maven-plugin
+- jacoco-maven-plugin
+- maven-clean-plugin
+- maven-resources-plugin
+- maven-site-plugin
+- maven-project-info-reports-plugin
+- maven-deploy-plugin
+- maven-install-plugin
+- hibernate-ehcache
+- hibernate-annotations
+- net.sf.ehcache
+- org.jasypt
+- openpojo
+- commons-codec
+- google-http-client
+- mockito-core
+- mockito-junit-jupiter
 
 ## Reference
 
