@@ -1450,7 +1450,9 @@ Provider *net.sf.ehcache*
 </dependency>
 ```
 
-### Pending 
+
+
+### Pending
 
 - hibernate-annotations
 - org.jasypt - http://www.jasypt.org/
@@ -1462,6 +1464,23 @@ Provider *net.sf.ehcache*
 - mockito-junit-jupiter
 - jaxb2-maven-plugin
 - jaxws-maven-plugin
+- build-helper-maven-plugin
+- Swagger-maven-plugin
+- gson
+- json-simple
+- swagger-annotations
+- org.apache.commons::commons-math3
+- joda-time::joda-time
+- org.json::json
+- jackson-core
+- jackson-databind
+- netty-all
+- resteasy-jackson-provider
+- resteasy-jettison-provider
+- resteasy-jaxb-provider
+- resteasy-jaxrs
+- resteasy-spring
+- 
 
 ## Reference
 
