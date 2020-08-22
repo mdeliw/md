@@ -1,14 +1,10 @@
 [toc]
 
-### Java Data Structures
-
-
+# Java Data Structures
 
 <img src="/Users/mdeliw/Library/Application%20Support/typora-user-images/image-20191121082444269.png" alt="image-20191121082444269" style="zoom:50%;" />
 
-
-
-#### # ArrayList
+## ArrayList
 
 - Slower, but offers flexibility in manipulations.
 - It is initialized by size, and can grow dynamically
@@ -60,7 +56,7 @@ while (it.hasNext()) {
 } 
 ```
 
-#### # LinkedList
+## LinkedList
 
 ```java
 LinkedList<E> ll = new LinkedList<E>();
@@ -93,7 +89,7 @@ pollLast();
 
 ```
 
-#### # Stack
+## Stack
 
 - LIFO
 
@@ -106,12 +102,12 @@ search(element);
 removeElementAt(index);
 ```
 
-#### # Queue
+## Queue
 
 - FIFO - Insert at tail, remove at head
 - Implemented by PriorityQueue and LinkedList
 
-#### # Deque
+##  Deque
 
 - FIFO and LIFO
 
@@ -119,7 +115,7 @@ removeElementAt(index);
 
 - Faster than stacks and linked list
 
-#### # Set
+## Set
 
 - Unordered list, dups are not allowed
 - HashSet, LinkedHashSet, and TreeSet (sorted)
@@ -130,17 +126,17 @@ removeElementAt(index);
   - Doesn't preserve the insertion order, instead elements are sorted
   - Search is O(Log(n))
 
-#### # Map
+## Map
 
 - Key/Value
 - No Dups
 - TreeMap and LinkedListMap maintain order, HashMap doesn't
 
-#### # HashTable
+### HashTable
 
 - Same as Map, but synchronized
 
-#### # String, StringBuilder, StringBuffer
+## String, StringBuilder, StringBuffer
 
 - String is immutable
 - StringBuilder is mutable
@@ -175,7 +171,7 @@ Integer.toString(int, 7); // to base 7
 
 ```
 
-#### # Arrays
+## Arrays
 
 ```java
 import java.utils.Array;
@@ -200,21 +196,45 @@ Set<String> setOfString = setOfInteger
 
 ```
 
-#### # Stream
+## Stream
+
+Stream is an abstraction and doesn’t hold data. Stream is NOT a data structure. The idea is to enable functional programming on stream of elements. You can’t point to an element in the stream, you can only specify a function that can operate on a element.
+
+> Stream is an abstraction of a non-mutable collection of functions applied in some order to the data.
+
+Common operations in Java Stream are:
+
+- **Filter** - returns a new stream that contains some elements from the original stream.
+- **Map** - transforms stream elements into something else.
+- **Reduce** - reduces a stream to a single element.
+- **Collect** - way to get out of stream and obtain a concrete collection of values.
+
+Streams are created from various sources including collections, arrays, strings, IO resources, or generators. 
 
 ```java
-// from collection
-List<String> list = new ArrayList<>();
-Stream<T> stream = list.stream(); 
+//preferred assuming use of primitive or objects
+Arrays.stream(array); 
+
+// from collections
+Arrays.asList().stream();
+ArrayList().stream();
+
+// iterating
+Stream<T> stream = new ArrayList<>().stream();
 Iterator<T> it = stream.iterator(); 
 while (it.hasNext()) { 
   System.out.print(it.next() + " "); 
 } 
 
+// from Collections
+List results = Arrays.asList(1,2,3,4).stream()
+    .filter(e -> (e % 2) == 0)
+    .map(e -> e * 2)
+    .collect(toList())
+
 // from values
-Stream<Integer> stream 
-  = Stream.of(1, 2, 3, 4, 5, 6, 7, 8, 9); 
-stream.forEach(p -> System.out.print(p + " "));
+Stream<Integer> stream = Stream.of(1, 2, 3, 4, 5, 6, 7, 8, 9)
+    .forEach(p -> System.out.print(p + " "));
 
 // from array
 Stream<T> streamOfArray = Arrays.stream(arr); 
@@ -227,7 +247,7 @@ Stream<String> stream = builder.add("a")
   .add("c") 
   .build(); 
 
-// infinite
+// infinite iteration
 Stream.iterate(seedValue = 2, (Integer n) -> n * n) 
   .limit(limitTerms = 5) 
   .forEach(System.out::println); 
@@ -242,16 +262,22 @@ Stream.generate(Math::random)
 list.stream() 
   .filter(p.asPredicate()) // p is a pattern
   .forEach(System.out::println); 
+
+// convert primitive to object
+int[] numbers = {1, 2, 3};
+List<Integer> listOfIntegers = Arrays.stream(numbers)
+    .boxed().collect(Collectors.toList());
 ```
 
-#### # Big Decimal
+## 
+
+## Big Decimal
 
 - Java Double and Float are floating point numbers stored as binary representation of fraction and exponent. Results have small errors 0.9999999 etc. 
 
 - Big Decimal provide accurate representation .``
 
-
-#### # Timer
+## Timer
 
 ```java
 long start = System.currentTimeMillis();
@@ -271,12 +297,12 @@ long timeElapsed =
   Duration.between(start, finish).toMillis();
 ```
 
-#### # Tree
+## Tree
 
 - Heavy mutations - use Red-Black tree
 - Low mutations - use AVL tree
 
-##### Red-Black tree
+### Red-Black tree
 
 - Every node is either black or red
 - All roots aree black

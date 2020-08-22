@@ -3,6 +3,10 @@
 >  In computer arithmetic operands are bit strings or bit vector.
 
 ```java
+// printing
+Integer.toString(100, 2);
+Integer.toBinaryString(100, 2);
+
 // Check if integer is even
 (x & 1) ? odd: even; //LSB is 1 for odd
 

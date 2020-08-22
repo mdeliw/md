@@ -1,30 +1,38 @@
 [toc]
 
-### Creating Objects
+# Creating Objects
 
-#### 1. Static factory methods instead of constructors <u>when the list of parameters is not optional</u>.
+## 1. Prefer Static factory methods over constructors <u>when the list of parameters is not optional</u>.
 
-- ==Pros== Unlike constructors, static factory methods have names. 
-- Unlike constructors, static factory are not required to create a new object each time they're invoked.
-- Unlike constructor, static factory can return object of any subtype of their return type.
-- Unlike constructor, static factory can use a different class of the return type.
-- Unlike constructor, static factory doesn't need the class of the return type to exist - Service Provider Interface.
-- ==Limitation== of providing only static factory methods is that classes without a public or protected constructors can't be subclassed. Also javadocs don't call out static factory methods clearly as compared to constructors.
-- ==Naming convention==: `class.static-factory-method`
+<u>Good</u>
+
+- Static factory methods have names. 
+- Static factory are not required to create a new object each time they're invoked.
+- Static factory can return object of any subtype of their return type.
+- Static factory can return object of a different class type based on input paramenter.
+- Static factory doesn't need the class of the return type to exist - Service Provider Interface.
+
+<u>Bad</u>
+
+- Static methods are hard to find. Javadocs don't call out static factory methods clearly as compared to constructors.
+- Only providing static factory method means that the class without a public or protected constructors can't be subclassed. 
+
+<u>Naming convention</u>
+
+-  `class.static-factory-method`
   - `.from` for  single parameter and return an instance. Alternative is `.valueOf`, `.getInstance`, `.instance`.
   - `.of`for multiple parameters and returns an instance. Alternative is `.valueOf`, `.getInstance`, `.instance`.
   - `.create`, `.newInstance` returns a new instance for each call.
-  - `helper-class.static-factory-method`: `.getType`, `.newType`, `.type` when the static factory method is in a different class, i.e. the method is not in the class whose instance is returned.
+- `helper-class.static-factory-method`:
+  - `.getType`, `.newType`, `.type` when the static factory method is in a different class, i.e. the method is not in the class whose instance is returned.
 
-#### 2. Builder method instead of constructor <u>when the list of parameters is optional</u>.
+## 2. Prefer Builder method over constructor <u>when the list of parameters is optional</u>.
 
-The approach uses ==three distinct patterns==: 
+The Builder pattern is verbose and needs an additional Builder class. The builder should be used only if we are dealing with with a large number of parameters.  The approach uses ==three distinct patterns== and validatity checks for mandatory and optional params <u>are necessary</u> in the Builder. Use `IllegalArgumentException` when necessary.  
 
-1. Call the constructor or the static factory method to return <u>a builder object</u> instead of the instance of the requested class. 
+1. Call the static factory method to return <u>a builder object</u> instead of the instance of the requested class. 
 2. Use the setter methods of the builder object to further set any optional parameter.
 3. Finally, call the `build` method of the builder object to generate the instance of the requested class.
-
-> Validatity checks for params are necessary in the Builder. Use `IllegalArgumentException` when necessary. 
 
 ```java
 public class SomeClass {
@@ -41,14 +49,12 @@ public class SomeClass {
     // optional fields ...
     
     // constructor for required fields
-    public Builder(required params) {
+    public Builder(mandatory params) {
       //... moves state to required fields
     }
     
     //setter for optional fields
-    public Builder fieldName(int x) {
-      // multiple setters
-      // usually the field name is the method name.
+    public Builder fieldName(optional params e.g. int x) {
       this.x = x;
       return Builder;
     }
@@ -56,8 +62,7 @@ public class SomeClass {
     // return SomeClass
     public SomeClass build() {
       return new SomeClass(this);
-    }
-    
+    }    
   }
 }
 
@@ -95,11 +100,13 @@ public abstract class Pizza {
 }
 ```
 
-==Limitations== of the Builder pattern is verbosity, and the need for an additional Builder class. It should be used only if we are dealing with or are going to deal with a large number of parameters in future.
-
-#### 3. Enforce the Singleton property.
+## 3. Prefer the Singleton property.
 
 Three common approaches use a private constructor and a static member to provide access to the sole instance. In two approaches, the static member is `final`.
+
+<u>First approach</u>
+
+A priviledged client can call the private constructor using reflection. To defend against this, have the constructor throw an exception if it is asked to create a second instance.
 
 ```java
 public class SomeClass {
@@ -108,9 +115,9 @@ public class SomeClass {
 }
 ```
 
-> A priviledged client can call the private constructor using reflection. To defend against this, have the constructor throw an exception if it is asked to create a second instance.
+<u>Second approach</u>
 
-In the second approach below, its becomes more clear that the class is a singleton. It also allows the option to remove the singleton behavior at a later time. Another advantage is the use of `SomeClass::instance`.
+Allows the option to remove the singleton behavior at a later time and uses the `SomeClass::instance`pattern.
 
 ```java
 public class SomeClass {
@@ -122,9 +129,19 @@ public class SomeClass {
 }
 ```
 
-> Additional care needs to be taken if the above two approaches need to implement Serializable. 
+For the above two approaches to be Serializable, its not enough to just implment Serializable. Make all fields transient, and implement `readResolve`, otherwise evertime the singleton is deserialized, a new object will be created. 
 
-The third approach below, is similar to the first approach, but is more concise, offers ironclad guarantee and provides the serialization by default. However this approach can't be used if the singleton must extend a superclass other than `Enum`.
+```java
+private Object readResolve() {
+    // Return the one true Object
+    // let the garbage collector take care of other impersonators. 
+    return INSTANCE;
+}
+```
+
+<u>Third approach</u>
+
+The third approach below, is similar to the first approach, it is concise, offers ironclad guarantee and <u>provides the serialization</u>. However it can't be used if the singleton must extend a superclass other than `Enum`.
 
 ```java
 public enum SomeClass {
@@ -132,11 +149,12 @@ public enum SomeClass {
 }
 ```
 
-#### 4. Enforce non-instantiation with private constructor.
+## 4. Prefer non-instantiation with private constructor.
 
-Some classes that are just a group of static fields and static methods aren't designed to be instantiated. To enforce non-instantiation also means to prevent subclassing. <u>Java creates a default constructor only if the class contains no explicit constructor</u>. 
+Some classes that are just a group of static fields and static methods aren't designed to be instantiated. To enforce non-instantiation  means to prevent subclassing. Java creates a default constructor only if the class contains no explicit constructor -  and usually the utility classes don’t need a constructor. 
 
 ```java
+// Noninstantiable class
 public class SomeClass {
   private SomeClass() {
     // just in case the class is instantiated from within the class.
@@ -145,9 +163,13 @@ public class SomeClass {
 }
 ```
 
-#### 5. Prefer dependency injection.
+## 5. Prefer dependency injection.
+
+Adhoc use of injection increased clutter. Use Guice or Spring instead. 
 
 The static utility classes and singletons are not appropriate when a state used inside a class is to be parameterized. What is required is the ability to support multiple instances of a class, each instance uses a resource desired by the client.  
+
+In the below good example, imagine otherwise, that Lexicon is implemented as a singleton or static field. You won’t be able to change it once implement. 
 
 ```java
 Class SpellChecker {
@@ -159,15 +181,13 @@ Class SpellChecker {
 }
 ```
 
-> A Java 8 variation is to pass a resource factory in the constructor.  The resource factory can implement the `Supplier<T>` interface to allow the client to pass a factory that creates any subtype of a specific type.
+A Java 8 variation is to pass a `Supplier<T>` in the constructor. 
 
 ```java
-public SomeClass(<Supplier<? extends Base> baseFactory) { ... }
+public SomeClass(Supplier<? extends Base> baseFactory) { ... }
 ```
 
-==Limitation== of adhoc injection increases clutter. Use frameworks such as Guice, Spring instead.
-
-#### 6. Avoid creating unnecessary objects.
+## 6. Avoid creating unnecessary objects.
 
 ```java
 String s = new String("hello"); // bad
@@ -177,18 +197,18 @@ String s = "hello"; // good
 With the second approach, it is guaranteed that the object will be reused by  any other code running in the same VM that happens to contains the same string literal. 
 
 - Use `Pattern.compile()` where heavy use of `String.matches` is done.
-- Stacks manage their own memory, and popped items aren't automatically garbage   collected. Explicitly assign null on the popped index.
+- Prefer primitives over boxed primitives.
+- Stacks manage their own memory, and popped items aren't automatically garbage collected. Explicitly assign null on the popped index.
 - Listeners and Callbacks are another source of memory leaks if not unregistered.
+- Make a defensive copy when reuse of object is not a good thing. Conversely, avoid duplicating objects when the object can be reused.
 - Read about  `WeakHashMap`
 
-#### 7. Avoid try-finally, instead use try-with-resources.
+## 7. Prefer try-with-resources over finalizers and cleaners
 
-- Avoid finalizers. The specification provides no guarantees that the finalizer will run promptly. Additionally it provides no guarantee that they'll be run at all. Uncaught exception thrown in the finalizer is ignored.
-- ==Alternatively== have the class implement `AutoCloseable` and have client involve the `close` method on each instance using the `try`-with-resources approach. 
+Avoid finalizers. The specification provides no guarantees that the finalizer will run promptly. Additionally it provides no guarantee that they'll be run at all. Uncaught exception thrown in the finalizer is ignored. Instead implement `AutoCloseable` and have client involve the `close` method on each instance using the `try`-with-resources approach. 
 
 ```java
 //clean the rented room before returning to landlord.
-
 public class Room implements AutoCloseable {
   private static final Cleaner cleaner = Cleaner.create();
   
@@ -216,7 +236,7 @@ public class Room implements AutoCloseable {
   }
 }
 
-// usage
+// right usage
 try (Room room = new Room(7)) {
  	System.out.println("Goodbye") 
 }
@@ -226,25 +246,25 @@ new Room(7);
 System.out.println("Goodbye");
 ```
 
-### Methods common to all objects.
+# Methods common to all objects.
 
 Although `Object` is a concrete class, it is designed for extension, and its non-final methods are meant for overriding. 
 
-#### 1. Overriding `equals`.
+## 1. Overriding `equals`.
 
-- Best option is to not override this method. In which case the instance is only equal to itself.  
+- Best option is to not override this method - in which case the instance is only equal to itself.  
 - Don't override if you're sure that the `equals` doesn't apply or if the super class already has a method that applies to your class.
-- Only override if a logical equality use case applies - such as a a value class, or when two different references have the same value. 
-- You must always override `hashCode` when you override `equals`.
+- Override if a logical equality use case applies - such as a a value class, or when two different references have the same value. 
+- Always override `hashCode` when you override `equals`.
 - You mush adhere to the following rules to implement the `equals`:
 
 ```java
 // reflexive
-x.equals(x);
+x.equals(x); // true if x is not null
 
 // symmetric
 x.equals(y);
-y.equals(x);
+y.equals(x); // true if x and y are not null
 
 // transitive
 x.equals(y);

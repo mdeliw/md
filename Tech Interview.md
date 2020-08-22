@@ -50,7 +50,11 @@ public class SampleVerticle extends AbstractVerticle {
 
 # Concurrency
 
-## Java 8 Style
+## Java 8
+
+### Data Structure Convesion
+
+- Create a Stream of Integers
 
 ### Questions
 
