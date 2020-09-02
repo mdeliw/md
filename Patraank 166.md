@@ -84,13 +84,9 @@
 
 સદ્‌ગુરુ સંત સ્વરૂપ્ તુજ, એ દડતા કરી હે જ.
 
-
-
 ## મોશ્રનાં સર્વોત્તમ કારણરૂપ વચનામ્રૂત
 
 ### પ્રવચન - ૧
-
-
 
 #### મંગલાચરણ
 
@@ -108,15 +104,11 @@
 
 બે અક્ષરમાં માર્ગ રહ્યો છે, છતાં શા માટે નહીં પામ્યો હું;
 
-શ્રી સદગુરુદેવને વીનંતી કરું, બાંહ્ય જ્ઞાલી સમજાવસો પ્રભુ!
+શ્રી સદગુરુદેવને વીનંતી કરું, બાંહ્ય ઝાલી સમજાવસો પ્રભુ!
 
 પરમક્રુપાળુને પ્રાર્થના કરું.
 
-
-
 #### પત્રપ્રવેશ
-
-
 
 આત્મગ્ણાન વિના કોઇ પન જીવનને સૂક્ હોઇ શકેજ નહી
 
@@ -160,27 +152,62 @@
 
 - ચેતના ની બે અવસ્તા:
 
-  - મુરશ્રીત - deepak is dying: મુરજાય  અપ્રજોલિત
-  - અમુરશ્રીત - deepak is alive પ્રકટાયલો
-
+  - મુરછીત - deepak is dying: મુરજાય ગયો,  અપ્રજોલિત નથી, હોશ વિના જિવેશે
+    - મનઝિલ - Extremely busy, not same as sleeping all the time. સક્રિય છે પર મા.
+    - Getting affected, Reactive in life, Slave of emotions, "fan"
+    - Small log of wood floating in river.
+    - Live per mood, leaf falling from tree, driven by wind
+    - Someone else is to blame for my situation, live in fear, or anxiety
+    - સુક / દુક ભાર છે
+    - અત્રુપતિ - don't enjoy what you have, worry about what you don't have / face. સદા વ્યાકુલ.
+  - અમુરછીત - deepak is alive પ્રકટાયલો
+    - અબ્યાસ રુપે - સાધક, સ્વરુપ / સ્વભાવ નો અબ્યાસિ, સમકિત સનમુંક, વિવેક છે, પન ટેકાના નથિ.
+    - સિધિ રુપે - ગ્નાનિ, સ્વરુપ /  સ્વભાવ મા સ્તિર, સમકિત, જાગ્રિતિ મય જિવન
+    - અજિ આ મુરછિ છે, પણ એનિ મુરછાત પ્રત્ય અમુરછીત છે
+    - Is aware, conclusions are right, but what he believes in, he isn't progressing in that belief.
+    - આધારબુધિ ના ધોરડા ડિલા છે
+    - મનઝિલ - સુત નિયોજિત, disciplined life, focused on goals, સારતક, I can't wait to do it. 
+    - Realise આયુશ્ય કર્મ, taking small steps is fine as long as its in right direction
+    - Not getting affected in small situation, always happy, responsive, 
+    - Thinks - why am i getting affected?
+    - મારિ આધાર ભુધિ weak છે
+    - ત્રુપતિ  એ વસ્તુ નિ પ્રાપ્તિ મા નથિ,  ત્રુશના ના અભાવ મા છે - "મને જરુરિ નથિ
+    - મને કાય પન જોતુ નથિ એમા સનતોષ 
   
+- દરશન મોહ, છારિત્ર મોહ (more details needed)
 
-અગણાનિ જે સુખ માને છે, ઇ તો દુખઃનિ ઓછી માત્રા છે. 
+- પ્રગથ દોશ અને અપ્રગથ દોશ
+
+
+**અગણાનિ** જે સુખ માને છે, ઇ તો દુખઃનિ ઓછી માત્રા છે. 
 
 - થોડીક માત્રા મા દુખઃ = સુખ
 - વધારે માત્રા મા દુખઃ = દુખ
 - શહનશક્તિ નિ ભારનુ દુખઃ = મહા દુખ
-- Difference is in degree, not in category. ગુણાત્મક ભેદ નથી.
+- Difference between સુખ અને દુખ is in degree, not in category. ગુણાત્મક ભેદ નથી.
 - નવું દુખઃ નિ સ્થિથી બહૂ પીડા કારક / દાયક છે.
 - દુખઃ નું પરીચય એટલે દુખ્ ની આદત.
   *Ignoring* = અવગના
   *Getting used to* = ખલેલ
   *Jail* = કારાગ્રહ
 - સતત્ત ચાલતુ દુખઃ નો ગમો પણ થાય છે - દુખઃ નિ આદત્ત.
-
-- સનસાર બનાવાની આદત - we fill our life with useles things - why?
+- જેલ મા ભિ સનસાર ચે.
+- સનસાર બનાવાની આદત છોડો... we fill our life with useles things - why?
   - અર્થહીનતા નો અનુભવ અને ખાલીપણુ નુ ભય = *experiencing worthlessness coupled with fear of emptiness cause the mind to collect things, to fill the emptiness with useless (વ્યર્થ) things*: પરિગ્ર, વ્યસનો, સંબનદો, *getting satisfied* (સમરૂધઃ)
   - *Emptiness will be filled only with* આત્મગ્ણાન.
-- *Love everyone, but don't depend upon anyone except Satguru.*
+- *Love everyone (મૈત્રિ), but don't depend upon anyone except Satguru.*
 - આંકડા ની દોડમાં - ધન, પદ, પ્રતિષ્ટા મા દોડયા કરે છે = shows how empty one is inside.
 - શૂબ ભાવ, શૂધ ભાવ ની અન્તરમાં સામરાજ્ય નથી - *no feeling to make you aware that you are lost* (થોઢુક તો સમરૂધ ભાસે)
+- શેના થી ભરશો જિવન? આત્મપરિચ્ય થિ.
+
+
+
+Chandni's Summary:
+
+5 Segments
+
+1. Opportunity
+2. Different states to Atma Gyaan
+3. What do I have to ? 
+4. I decided, now what do I do next?
+5. Patra Pravesh
