@@ -69,15 +69,13 @@ git pull
 git clone
 ```
 
-## Flow
+## Git Flow
 
 http://marklodato.github.io/visual-git-guide/index-en.html
 
-- WD -> S -> H (Commit snapshot also called HEAD or History)
-- Reset overwrites S with the last Commit on HEAD. You undo a Add with a Reset.
-- Checkout overwrites WD with a copy in S. You undo a edit in WD with checkout.
-
-<img src="/Users/mdeliw/Documents/Info/image-20191027201605774.png" alt="image-20191027201605774" style="zoom:33%;" />
+- Working Directory -> Staging -> Head or History
+- Reset overwrites Staging with the last Commit on HEAD. You undo a Add with a Reset.
+- Checkout overwrites Working Directory with a copy in Staging. You undo a edit in Working Directory with checkout.
 
 ## Remotes
 
@@ -273,7 +271,7 @@ git branch -d server
 
 ## Checkout
 
-Copy files from history or stage to the wd, and to optionally switch branches. 
+Copy files from Head or Staging to the Working Directory, and to optionally switch branches. 
 
 - If the commit name is provided, the files are copied from commit to staging and wd.
 - If commit name is not provided, the files are copied from staging  to wd.
