@@ -2,7 +2,45 @@
 
 [toc]
 
-#### # For Beginner
+## How to install git
+
+```bash
+brew install git
+git --version
+```
+
+## How to generate SSH key for GitHub authorization
+
+See Git.md
+
+## How to access and copy public SSH key
+
+See Git.md
+
+## How to upload your public SSH key to Github
+
+1. Login to your GitHub account and go to https://github.com/settings/profile
+2. Click on “SSH and GPG Keys” to load the SSH key management page.
+3. Click on “New SSH key”
+4. Enter an appropriate title name.
+5. Paste the public SSH key in the key text box.
+6. Click on “Add SSH key”
+
+## Test your GitHub authorization
+
+```bash
+git clone git@github.com:<Name>/<Name>.git
+# or
+ssh -T git@github.com
+# output will be
+# Hi your_user_name! You've successfully authenticated, but GitHub does not provide shell access.
+```
+
+## Add your SSH key to ssh-agent
+
+See Git.md
+
+## Misc
 
 ```bash
 cd <folder>
@@ -31,57 +69,7 @@ git pull
 git clone
 ```
 
-##### Setup SSH
-
-```bash
-# check if ssh keys are existing
-# id_rsa.pub, id_ecdsa.pub, id_ed25519.pub
-ls -a ~/.ssh 
-
-# generate new ssh keys
-# select file as id_rsa_xxx
-ssh-keygen -t rsa
-ssh-keygen -t rsa -b 4096
-ssh-keygen -t rsa -b 4096 -C "your_email"
-# type secure passphrase
-
-# add ssh key to ssh-agent
-# start the ssh agent
-eval "$(ssh-agent -s)"
-
-# edit ~/.ssh/config file
-# 1. if using single ssh key across all remotes
-Host *
-  AddKeysToAgent yes
-  UseKeychain yes
-  IdentityFile ~/.ssh/id_rsa_xxx
-
-# 2. if using multiple ssh keys - one per domain
-# ssh bob@myserver
-# ssh -i ~/.ssh/dev.example.key bob@dev.example.com -p 5555
-Host           myserver (any name)
-HostName       dev.example.com
-Port           5555 (optional)
-IdentityFile   ~/.ssh/id_rsa_xxx
-User           bob (your id on remote)
-
-# add ssh private key to ssh-agent
-# add passphrase to keychain
-ssh-add -K ~/.ssh/id_rsa_xxx
-ssh-add ~/.ssh/id_rsa_xxx
-
-# add ssh key to github account
-# copy ssh key to clipboard, and add it to githib from Settings
-pbcopy < ~/.ssh/id_rsa_xxx.pub
-
-# Test ssh connection
-ssh -T git@github.com
-
-# if ever need to change passphrase
-ssh-keygen -p
-```
-
-#### # Flow
+## Flow
 
 http://marklodato.github.io/visual-git-guide/index-en.html
 
@@ -91,7 +79,7 @@ http://marklodato.github.io/visual-git-guide/index-en.html
 
 <img src="/Users/mdeliw/Documents/Info/image-20191027201605774.png" alt="image-20191027201605774" style="zoom:33%;" />
 
-#### # Remotes
+## Remotes
 
 ```bash
 # create remote from local
@@ -131,7 +119,7 @@ git remote rename pb paul
 git remote remove <remote>
 ```
 
-#### # Tagging
+## Tagging
 
 ```bash
 git tag # list
@@ -162,7 +150,7 @@ git checkout v1.4 # just for exploration and discarding
 git checkout -b version2 v1.4
 ```
 
-#### # Branches
+## Branches
 
 https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell
 
@@ -222,15 +210,15 @@ git push origin --delete mybranch
 # use merge or rebase which provides cleaner history
 ```
 
-##### Rebase
+## Rebase
 
 To integrate changes from one branch into another, you can use `merge` or `rebase` which offers a cleaner history. You have the following:
 
-<img src="/Volumes/storage/Documents/Info/Git.assets/image-20200307225817889.png" alt="image-20200307225817889" style="zoom:25%;" />
+<img src="/Volumes/storage/Documents/md/Git.assets/image-20200307225817889.png" alt="image-20200307225817889" style="zoom:25%;" />
 
 A merge would do three-way merge and create C5.
 
-<img src="/Volumes/storage/Documents/Info/Git.assets/image-20200307225905481.png" alt="image-20200307225905481" style="zoom:25%;" />
+<img src="/Volumes/storage/Documents/md/Git.assets/image-20200307225905481.png" alt="image-20200307225905481" style="zoom:25%;" />
 
 
 
@@ -241,20 +229,20 @@ git checkout experiment
 git rebase master
 ```
 
-<img src="/Volumes/storage/Documents/Info/Git.assets/image-20200307225949129.png" alt="image-20200307225949129" style="zoom:25%;" />
+<img src="/Volumes/storage/Documents/md/Git.assets/image-20200307225949129.png" alt="image-20200307225949129" style="zoom:25%;" />
 
 ```bash
 git checkout master
 git merge experiment
 ```
 
-<img src="/Volumes/storage/Documents/Info/Git.assets/image-20200307230039410.png" alt="image-20200307230039410" style="zoom:25%;" />
+<img src="/Volumes/storage/Documents/md/Git.assets/image-20200307230039410.png" alt="image-20200307230039410" style="zoom:25%;" />
 
 
 
 Take another example:
 
-<img src="/Volumes/storage/Documents/Info/Git.assets/image-20200307230300755.png" alt="image-20200307230300755" style="zoom:25%;" />
+<img src="/Volumes/storage/Documents/md/Git.assets/image-20200307230300755.png" alt="image-20200307230300755" style="zoom:25%;" />
 
 Say you want to merge client into mainline for a release, but you want to hold off on the server changes. You can take C8 and C9 and put them on master.
 
@@ -263,34 +251,34 @@ Say you want to merge client into mainline for a release, but you want to hold o
 git rebase --onto master server client
 ```
 
-<img src="/Volumes/storage/Documents/Info/Git.assets/image-20200307230611038.png" alt="image-20200307230611038" style="zoom:25%;" />
+<img src="/Volumes/storage/Documents/md/Git.assets/image-20200307230611038.png" alt="image-20200307230611038" style="zoom:25%;" />
 
 ```bash
 git checkout master
 git merge client
 ```
 
-<img src="/Volumes/storage/Documents/Info/Git.assets/image-20200307230649632.png" alt="image-20200307230649632" style="zoom:25%;" />
+<img src="/Volumes/storage/Documents/md/Git.assets/image-20200307230649632.png" alt="image-20200307230649632" style="zoom:25%;" />
 
 ```bash
 git rebase master server
 ```
 
-<img src="/Volumes/storage/Documents/Info/Git.assets/image-20200307230725673.png" alt="image-20200307230725673" style="zoom:25%;" />
+<img src="/Volumes/storage/Documents/md/Git.assets/image-20200307230725673.png" alt="image-20200307230725673" style="zoom:25%;" />
 
 ```bash
 git branch -d client
 git branch -d server
 ```
 
-#### # Checkout
+## Checkout
 
 Copy files from history or stage to the wd, and to optionally switch branches. 
 
 - If the commit name is provided, the files are copied from commit to staging and wd.
 - If commit name is not provided, the files are copied from staging  to wd.
 
-#### # Commit
+## Commit
 
 ```bash
 # implicit add all files already existing previous commit.
@@ -300,7 +288,7 @@ git commit
 # view commit history - see git log
 ```
 
-#### # Undoing
+## Undoing
 
 ```bash
 git commit -m 'first commit'
@@ -316,9 +304,7 @@ git reset HEAD README.md # unstaged
 git reset HEAD README.md
 ```
 
-
-
-#### # Diff
+## Diff
 
 ```bash
 git diff # diff between WD and Staging
@@ -332,7 +318,7 @@ git diff HEAD
 git diff first-commit last-commit
 ```
 
-#### # Reset
+## Reset
 
 Moves the current branch to another position, and optionally updates the stage and the working directory. It also is used to copy files from the history to the stage without touching the working directory.
 
@@ -347,11 +333,11 @@ git reset HEAD~3 --hard # copies history into staging and wd
 git reset HEAD~3 --soft # simply moves the HEAD, doesn't copy to staging or wd
 ```
 
-#### # Merge and Rebase
+## Merge and Rebase
 
 To join two histories, a `merge` or `rebase` is necessary. A `merge` creates a new commit that incorporates changes from other commits. Before merging, the stage must match the current commit. 
 
-#### # Misc commands
+## Misc commands
 
 ```bash
 git config --global user.name "John Doe"
@@ -479,7 +465,7 @@ git mv oldfile newfile
 git push <remotename> <tagname>
 ```
 
-#### # Log
+## Log
 
 ```bash
 git log # too long
@@ -498,7 +484,7 @@ git log --name-status # which files have changed
 git log --pretty="%h - %s" --author='Junio C Hamano' --since="2008-10-01" --before="2008-11-01" --no-merges -- t
 ```
 
-#### # Pull Request
+## Pull Request
 
 To create a PR, you must have the changes committed to the branch.
 
@@ -506,7 +492,7 @@ https://yangsu.github.io/pull-request-tutorial/
 
 https://hackernoon.com/how-to-git-pr-from-the-command-line-a5b204a57ab1
 
-#### # File status
+## File status
 
 File status: `untracked`, `unmodified`, `modified`, `staged`.
 * `untracked` is a new file not in previous commit snapshot. `untracked` gets tracked only after add.
@@ -516,7 +502,7 @@ File status: `untracked`, `unmodified`, `modified`, `staged`.
 * commit: moves file from `staged` to `unmodified`
 * remove: moves file from `unmodified` to `untracked`
 
-#### # Standard practice
+## Standard practice
 
 * Two main branches: `origin`, and `develop`
 * Multiple supporting branches: `features`, `release-*`, and `hotfix-*`
@@ -567,7 +553,7 @@ git branch -d hotfix-1.2.1
 git push origin --delete hotfix-1.2.1
 ```
 
-#### # Bash Alias
+## Bash Alias
 
 ```
 grbi 	- git rebase -i master
@@ -582,29 +568,10 @@ gcf 	- git commit --fixup <commit>
 # ~/.gitignore_global can have .gitignore entries
 ```
 
-#### # Pro Git
-
-##### First-time Git Setup
-
-```bash
-# git config in three places
-/etc/gitconfig # with --system option
-~/.gitconfig # with --global option
-~/.config/git/config # with --global option
-
-git config --global user.name "your name"
-git config --global user.email your_email
-```
-
-
-
-#### # Reference
+## Reference
 
 https://hackernoon.com/git-push-and-pull-tips-and-tricks-7f9163539f02
 
 https://ohshitgit.com/
 
 https://git-scm.com/book/en/v2
-
-
-
