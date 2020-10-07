@@ -11,3 +11,14 @@
 
 - Out-dated to an extent - https://sourabhbajaj.com/mac-setup/Homebrew/Cask.html
 
+##  What program is using port 8080
+
+```bash
+lsof -i :8080 | grep LISTEN
+# output
+java    42975 mkyong   
+
+ps -ef 42975
+kill 42975
+```
+

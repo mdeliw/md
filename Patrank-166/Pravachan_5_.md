@@ -1,0 +1,195 @@
+Shrimad Rajchandra Vachanamrutji
+
+Beneficial Wisdom for Liberation Pravachan 5 - Knowledge-Rituals: Failed Infinite Times
+
+English Summary (19.08.2020)
+
+This is an English summary of the pravachan by a seeker, Rimaben Dhanky from Dubai.
+
+
+
+Every sentence, every word of an Enlightened One is filled with infinite scriptures, how can this be? With endorsement from countless Enlightened Ones, I consider the statements below auspicious and the supreme cause of liberation for every single aspirant:-
+
+1. Without giving up all kinds of desires for illusory pleasures at sometime or the other, there is no freedom. So understand that the very moment you hear this statement, you should begin the practise of that course of action.
+
+2. By any means, search for an Enlightened Master. Having found Him, cultivate an attitude of surrender unto Him through body, mind, speech and soul. Follow only His commands in every way, without any doubts. And realise that then alone can there be complete annihilation of all illusory passions.
+
+3. Through beginningless cycles of birth and death, you have heard the scriptures infinite times, you have pursued knowledge infinite times, you have taken complete renunciation infinite times, you have attained the position of Head of the congregation infinite times. Nevertheless, you have not found the Truth, not heard the Truth, nor had faith in the Truth. And upon your meeting it, hearing it and having faith in it alone will the yearning for liberation resonate from the Soul.
+
+4. The path to liberation is not outside but within the Soul. The One who has attained the path shall help attain it.
+
+5. The path is contained in two letters and yet, since time immemorial, after putting in so much effort, why has it not been attained? Deliberate upon this.
+
+
+
+In the second statement, Param Krupalu Dev said, “*By any means, search for an Enlightened Master*”. If you read the scriptures with your own interpretations and you think that everything that the Lord said is in the scriptures, then you don’t need an Enlightened Master, you may have incorrect, or even contrary interpretations. You are cherry-picking from the scriptures. If you like bhakti, you will underline only that. If you like meditation, you will underline that, and if you like fasting, you will underline that, and if you like to remain in the witnessing mode, you will underline that and say, “*This is what is said in the scriptures*.” And thus, unconsciously your beliefs are formed. Prabhu disapproves of interpretations of the scriptures based on your own whims and fancies; and the charlatan, one whom you follow simply because of family tradition or who simply keeps you engaged in external rituals. Prabhu encouraged the seeker to find a self-realised Enlightened One, a Sadguru.
+
+
+
+Your Sadguru, may prescribe for you, that which is in the scriptures or as the charlatan also advised. The Sadguru will ask you to pay obeisance to the Lord and Guru and do bhakti. Now you may think that since this is also in the scriptures, then why should you get into the ‘slavery’ of the Guru? Just as when you go to the pharmacy, the pharmacist also has all the medicines you may need, yet there is a great value to a prescription. Your medicine may cost Rs.50/- but the doctor might have charged Rs. 5,000/- for his consultation. Yet we are ready to pay the price, because if I take a medicine of my own accord, it could prove detrimental as well. Now if you have so much faith in someone who has simply studied a few books for five- seven years, then faith and surrender in One who is an actual embodiment of Enlightenment is only natural. As you go ahead, these words are no longer instructive but rather experiential and can be experienced. Remember this, if your income is less, you should be careful in spending.If you do not have experience of the Soul, you should be careful while speaking
+
+
+
+Since you have not experienced of the self, in any statement you make, ensure that you don't make claims that ‘*This is what I think or feel*.” Since you are still at the stage of practice, clearly quote the scriptures. But if you use certain words and phrases, you are giving an impression to the listener that you have some extra intuitive powers. Pujya Gurudevshri is not against ‘intuition’ but against an ineligible person using the word. If you have inner purity and your Sadguru has conferred His approval upon you, then work intuitively. Until then, beware of making undue claims or speaking anything that may give the impression to others that you are greater or special. 
+
+
+
+If even one or two people feel better because they follow what you asked them to do, you will start to think that in fact you have some special powers. We are not interested in claims made in worldly matters, but in the spiritual field, this will create immense harm. Thus simple minded, ignorant people will get trapped by the charlatan. So, don't get trapped by imposters and don't become an imposter either. 
+
+
+
+Once you have found Your Sadguru, what next? Surrender to Him. “*Having found Him, cultivate an attitude of surrender unto Him through body, mind, speech, and soul.*” Instead of just offering money, you should surrender your way of thinking. As per the 9th stanza of Shri Atmasiddhi Shastra, “*Seve Sadguru charanne, tyagi dai nij paksh, pamey te parmarthne, nij padano le laksh*.” (Giving up his own viewpoint, if one serves at the feet of a true Guru, he will understand the truth and proceed towards self-realisation.) If you leave your beliefs, your viewpoint, your nature, your conceptual and habitual thinking, then you can walk on the spiritual path. Param Krupalu Dev showed the characteristics of the seeker before He showed the characteristics of the Sadguru in Shri Atmasiddhi Shastra. If the disciple is not ready to give up his concepts and thoughts, there is no point. Then it doesn’t matter whether he finds a Sadguru or a charlatan or no Guru at all. When the disciple is ready and wants to search for a Sadguru, He says the characteristics in the 10th stanza, “*Atmajnan, samadarshita, vicharey udayprayog, apurva vani, param shrut, Sadguru lakshan yogya*.” (Self-realisation, equanimity, activities as ordained, unparalleled words and mastery over the scriptures are the characteristics of a true Guru). Truly, if you study only Shri Atmasiddhi Shastra alone, you won’t need to study the whole Vachanamrutji. If you remember Shri Atmasiddhi Shastra, sing it every day, contemplate and reflect on it, it will guide you perfectly.
+
+
+
+Once you surrender to the Sadguru, then “*Follow only His Ajna (commands) in every way, without any doubts. And realise that then alone can there be the complete annihilation of all illusory passions*.” It is very difficult to follow the ajna of the Sadguru. It is easy to take the Guru on your shoulders and dance. It is very easy to bow down to the Guru or offer your salutations made by the prostration of eight limbs. But while it is difficult to follow the ajna of the Guru, there are endless benefits to it. Looking at these benefits, you should do even this difficult job. The spiritual aspirant is one who sees infinite benefit in following the ajna and sees infinite harm in impurities. He knows that he has to weaken his infinite bonding karma, otherwise he will waste his whole life. Only one who has understood this can exhibit bravery and heroism in following the ajna. He knows that he may get into the bondage of many lower births with just one feeling or just one thought. He does not want such feelings, thoughts, desires, and lust. By following one ajna of the Sadguru, you can develop infinite virtues. Even though following it is difficult, looking at its infinite benefits, the disciple follows His Sadguru.
+
+For following ajna (commands), you need to surrender three things. 
+
+1. Your power of understanding
+2. Your power of determination
+3. Your power of desires
+
+When all three are surrendered, you are capable of following the ajna. These three things encompass your freedom or independence. It is difficult to surrender these three things. You might surrender your power of understanding. But you want to take your own decisions, you want to keep the power of determination in your hands. Sometimes you may surrender your power of understanding and power of determination to some extent, but you still retain the power of desires. Slowly, when they all have surrendered, you will reap infinite benefits. This attitude is woven into our cultural decorum and language as well, so even if we don’t have such feelings as yet, while speaking thus, these feelings develop. We ask Pujya Gurudevshri, “*Sahebji, what should I do? Should I stay here or go back?*” Even if we may not have it in our feelings, we won’t say “*Now Sahebji, You must allow me to stay back.*” Else it is won’t be surrendering your power of desires. The true disciple enjoys surrendering to his Guru’s ajna. This is following the ajna.
+
+
+
+There are two things: 
+
+1. Desirelessness (nishkamta) 
+2. Doubtlessness (nishankta). 
+
+Prabhu has asked us to follow the Guru’s ajna without any doubts. But why do you foster doubts? It is because of desires. We need selflessness. What does the spiritual aspirant want? Does he want self-realisation or an ailing mind? The spiritual aspirant wants to strive for self-realisation alone. He does not want to reinforce the ailments of the mind. The ailment of the mind is the eagerness for commission in every act. As you follow ajna, at the same time, you want to take a little commission of pride too.
+
+There are two types of sakamta (desires for fruits): 
+
+1. Greed 
+2. Pride. 
+
+In following ajna, you should not have any desires. You may have the greed that, ‘*If I follow His ajna, I will bind meritorious karma and thus have favourable situations in life and all the unfavourable situations will vanish.*’ Everywhere in society, you see this greed. People go to Tirupati, Shankheshwar, Nakodaji, Shrinathji, etc., to fulfil their desires. The true seeker only wants to experience the soul. He feels like he has everything when it comes to worldly acquisitions. He feels that without knowing the soul, without self-realisation, he is a beggar. In your devotion, you do not even realise that you are doing these things out of greed for a favorable and comfortable life. In the requests made to Him, Pujya Gurudevshri checks if there is a spiritual seeking or a worldly desire. You may not even realise that this impurity has crept into your devotion.
+
+You feel, ‘*If I do this, I will look good in society and will be well appreciated.*’ You must check that while following ajna or doing seva, are you taking such commissions? ‘*Aanae Dhammo*’ (Following Ajna is Dharma) By following ajna, you would have attained liberation, instead of that, you have taken commission in between, so you will not attain it.
+
+
+
+You should follow ajna with a sense of surrender, whether anyone acknowledges it or not. The seeker does not want others to know about his seva, he does not care whether he is appreciated or condemned, he wants to tally himself with the Enlightened One alone. He does not have an eye for the world at all. But instead, if you look at the world and decide your steps, this is an ailment of the mind and you cannot be called a true seeker. A person went to Pujya Gurudevshri and said, “Nowadays You have become very famous and there are always crowds of people around You. You are lost. We cannot meet You in person and we cannot even ask You how You are, as we used to earlier. I am not very happy with this situation.” This person had begun attending satsang, when Pujya Gurudevshri started with 15-20 people. Pujya Gurudevshri said, “Earlier you were able to do bhakti, satsang, now also you are getting the same. As a matter of fact you get all the satsangs sitting at home. What has changed? The only thing that has changed is that in the small group, you were special, now you are not special anymore.” You are unhappy because you have lost your special status, you are not worried about the larger crowd. Your problem is your pride. Nowadays because satsang is available at home, you can do a lot of introspection and meditation instead of travelling.
+
+
+
+Prabhu has clearly said, “*Follow only His commands in every way, without any doubts.*” In suspicion (shanka), there is a negative judgement. In uncertainty (sandeha), there is a question mark. In reasoning and speculation (tark-vitark), no decision is taken, what is right and what is wrong is not decided till the end. You will remain undecided and thus you won’t be able to conclude whether you met a saint or not. When you have a question, do not get disturbed. You should know the difference between doubt and suspicion. You should be clear that you just want to know about something. Every question mark is not a suspicion. Your heart should be a witness to it. If you do not understand something, you are asking in order to understand. Just listen to your soul. Do you feel any impurity within or do you genuinely want to make your faith stronger?
+
+If you have doubts and suspicions, you won’t be enthusiastic about following ajna. Prabhu has said in Patrank-147, “*Without getting engrossed in ajna, it is very difficult to attain the path of spirituality. To get engrossed itself is very difficult*.” Once you have doubts and suspicions, your faith and surrendership will become very weak. To go at full speed, you need to be free of doubts. After that you still have to work on your laziness, passions, etc. But if you are still stuck in fighting for your faith, these matters will be left out for another birth, this is common sense. If you are not aligned to ajna, you will become so weak that you will lose the value of ajna itself. Thus you must follow ajna with complete faith. You must stay aligned to ajna and follow it with faith, respect, enthusiasm, and with the strong resolution that you want to do this only and nothing else. It should not be done with a feeling of helplessness nor because everyone else is doing it. This has nothing to do with the ajna. This is an external formality alone.
+
+
+
+If you agree with the Enlightened One only for the sake of formality, you have gained nothing. If you agree with Him with your heart, you will develop the virtue of reverence, this will happen due to surrender. But if you agree with Him with your intellect also, you will develop the virtue of discretion. You will be able to understand His intent, you can join the dots. You can understand that for this flaw, this ajna was given and for that flaw, the other ajna was given. Once you have discretion, you can go closer to self-realisation. Even if you surrender with the thought that He is right, He is saying it for your welfare only, it is beneficial also, this is also very good, but you will have the virtue of reverence. But one step ahead is when the intellect can understand it as well. Pujyashri Ambalalbhai was able to understand the intent of Prabhu. Others just accepted that whatever Prabhu said was right, they were agreeing with Prabhu with their hearts, so they had the virtue of reverence. But Pujyashri Ambalalbhai not only agreed with his heart, but he was also aligned with his intellect.
+
+
+
+The problem is that you think that whatever sets in your intellectual framework alone can be believed. Then you are not following ajna, you are following your intellect alone. You do not have faith and bhakti. You are a disciple of your own intellect and not your Guru. When it comes to philosophical talks, you have no issues. When the Guru is explaining the nine fundamentals, you accept them. You also agree with Him when He talks about celestial abodes and hellish abodes. But when the Guru gives a practical ajna, you become doubtful. Since you have nothing to do with the celestial abodes and hellish abodes, so you agree easily. The problem is about practical ajna alone. If you agree with 80% of and disagree with only 20% of what He says, you have disagreed with Him 100%.
+
+
+
+If you disagree with even an infinitesimal part of a single word or letter of the ajna or the word of Jineshwar Bhagwan, that soul is like Jamali. (Ninhav: Non believer who opposes the Divine Truth of Jineshwar Bhagwan) How can you say 20% disagreement is fine? Often you do not understand what Your Guru has said, sometimes you feel that it is not practical. But the problem is that you do not want to catch the intent of the Sadguru. You shut your mind first and then complain that it is not making sense. At times, when you are doing something auspicious, your Guru may ask you to stop that activity. In that auspicious work also, if the Guru can see your ego and pride swell, He will ask you to stop that activity immediately. The moment your ego is annihilated, He will ask you to do the same thing again. Now you will not understand this with your incomplete and impure intellect. Learn to understand His intent. All these things come under specific ajnas and not in the general preaching. That’s why Prabhu asked you to prepare yourself before surrendering.
+
+
+
+In the intellect, there are two troubles 
+
+1. Logic.
+2. Comparison of the scriptures. 
+
+Before you go to the Enlightened One, determine your trust and faith in Him. Before you take any ajna, you should believe that He is trustworthy. If you don’t trust Him, then you should just read books. Everything that comes from the Sadguru may not match your ideas and conditioning. Unless you trust Him, do not go to Him. You have to go to the Sadguru and tell Him, “Prabhu, You tell me the meaning of the scriptures. I have understood wrongly, please correct me.” The Sadguru can never contradict the scriptures. “*Ek hoy tran kaalmaa, parmarathno panth*.” (There is only one path of supreme bliss for all times.) You should realise that if something different comes from the Sadguru, you should improve your understanding. If you do not trust Him, you won’t be doubtless in following His ajna. Prabhu has then said, “*And realise that then alone can there be the complete annihilation of all illusory passions.*” When you follow ajna, only then will there be complete annihilation of all illusory passions. How is that possible? When you follow the ajna, you realise the folly in your belief that there is pleasure in the temporary. You will still know various objects of enjoyment, but the superimposition of happiness will be annihilated. Eventually you won’t desire them at all. Just as you would not like to get cow dung in your house and store it, as you do not have the superimposition of happiness in it. The pig, however, may love the same cow dung. The more you are aligned with ajna, the more your superimpositions will be annihilated. If you see food as a heap of earth alone, how much happiness will you get out of it? Will you desire the same?
+
+
+
+As you go towards the Enlightened One, you have started annihilating illusory happiness. If your thoughts and feelings are bent towards the Enlightened One, they won’t bend towards illusory happiness. This is because, in the refuge and bhakti of the Enlightened One, you feel happiness, peace, and security, therefore you won’t have any external desires. This transformation is possible within a moment. All you need is a deep love for the Enlightened One. This statement is complete in itself. “By any means, search for an Enlightened Master. Having found Him, cultivate an attitude of surrender unto Him through body, mind, speech, and soul. Follow only His commands in every way, without any doubts. And realise that then alone can there be the complete annihilation of all illusory passions.”
+
+
+
+The best part of it is that it is a subject of your experience and not your faith. The one who passes through this experience will say, “I loved onions and potatoes before. But the moment I met Sahebji, I gave them up.” Within a moment, you gave them up. Certain things were given up easily, certain things are deep-rooted and you have to work on them some more. A person broke the bar at his home after meeting Pujya Gurudevshri in a moment, because he no longer found happiness in alcohol. He had found a higher source of happiness.
+
+
+
+In the third statement, Prabhu has assessed transmigration. “*Through beginningless cycles of birth and death, you have heard the scriptures infinite times, you have pursued knowledge infinite times, you have taken complete renunciation infinite times, you have attained the position of Head of the congregation infinite times. Nevertheless, you have not found the Truth, not heard the Truth, nor had faith in the Truth. And upon your meeting it, hearing it and having faith in it alone will the yearning for liberation resonate from the Soul.*”
+
+
+
+In this statement, Prabhu has clarified that your knowledge and activities have not been successful till now. He is talking about 2 examples of knowledge and 2 examples that represent activities. Complete renunciation and attaining the position of Head of the congregation are activities, and hearing the scriptures and pursuing knowledge represent gaining more knowledge. Why were they not successful till now, and how can they be successful now; both these things have been addressed. This is the assessment of transmigration. This soul has existed since time immemorial, though the body may be recently born, the soul was always there. In this infinite time, you have done both sinful and good activities. It is not that you just enjoyed sensual pleasures alone. You have heard the scriptures, you have pursued knowledge. You have embraced initiation and have become the Head of the congregation too. This is the most tragic thing. You have heard the scriptures from a Guru infinite times. Still, you are fall prey to passions like anger, ego, deceit, and greed. You have heard Jineshwar Bhagwan’s sermons in the samavasaran infinite times; you have heard the scriptures - the written form of Bhagwan’s teachings, from a Guru or a scholar, or you have read them yourself infinite times. You have learned various arts and sciences, and been considered a talented person many times. You have even mastered certain subjects to the point where people sought your advice as an expert on that subject. This calls for great focus and restraint, which you practised infinite times.
+
+
+
+You have taken complete renunciation and given up your house infinite times. Even if you take the lifelong vows of following a certain nityakram, it is considered to be something very high and it changes your state. When you embrace complete renunciation, you are constantly engaged in some activity or the other. There is little scope for outward laziness. You have to keep moving ahead. You have to live a hard life as an ascetic. Many times it was someone else who wanted to embrace initiation, and you decided to accompany him. When Lallubhai Bhavsar embraced initiation, Devkaranbhai also did the same.  When King Rushabhdev embraced monkhood, people loved Him so much that 4,000 others were eager to embrace monkhood just so they could be with Him. Tirthankars follow the discipline of not preaching until they have attained omniscience. Because the others received no instructions from Muni Rushabhdev and did not know what to do as monks, many of them went back, as they could not sustain themselves for so many years. They had no idea what to do as no one else in this era had embraced initiation. Even Marichi was unable to sustain the correct practices for long. Having embraced initiation infinite times, many times you gave up your monkhood and went back to being a samsari. At times, you lived as an ascetic and left your body as an ascetic too. But never did you attain self-realisation. You attained the position of Head of the congregation infinite times and the entire sangh bowed down to you. Your knowledge was such that you gave discourses on the scriptures. But you were not eligible for the post, because you did not have samyag darshan (self-realisation). As a Guru if you do not have self-realisation, you are a charlatan; thus, you were a charlatan infinite times!
+
+
+
+A seeker must keep two things in mind. 
+
+1. Stop the desire of spreading knowledge to others just because you have studied a few scriptures. Realise that you will miss out on your inner work. 
+
+2. Do not become egoistic if you are practising some vows or austerities. Do not consider outward renunciation as progress. Before samyag darshan, if you give up anything, do not leave it permanently. Give it up for three months, then start consuming it again. Check whether your attraction for it has gone down or not. One day do ayambil, the next day eat normal food and then check your feelings - were you able to remain equanimous? Practise austerities, but do not consider your practice as progress. Progress will come at stage three only; once your belief changes. You will not even desire it. When you pass these three stages, that is progress. Do not become proud about observing austerities, because you have no clarity in your beliefs. Your actions stem from your willpower.
+
+   
+
+All the above activities were good and auspicious, but they were not done in the right manner, so everything led to bondage. How can they result in bondage? With the help of satsang, one has altered his non-destructive (aghati) karma, not his destructive (ghati) karma. This means that he was able to alter his naam karma (body determining karma), or ensure that he will be born as a higher life form - a celestial being, by fasting for a certain number of days etc. Instead of accruing unmeritorious karma, he will bind meritorious karma, but it is bondage nonetheless. He has not shed karma through this. And the moment the lifespan of the celestial birth is over, he will wander in different lower life-forms. In the refuge of an Enlightened One, your destructive karmas should be transformed. Bring about a change in your deluding karma (mohaniya karma) and more importantly in darshan moha - faith deluding karma. You should attain self-realisation, but you are not doing anything in this direction. Through your bhakti etc., your non-destructive karmas will get transformed, whether you desire this or not. You will bind meritorious karmas. But do not be content with this. Weaken your faith delusion, even if you cannot annihilate it. Because this was not done, all your spiritual pursuits have resulted in bondage and it seems like there is no alternative left.
+
+
+
+Throughout your transmigration, you have embraced monkhood so many times, that if a pile is made of the ogha (Small woolen brush to sweep any place before sitting so as not to hurt even the smallest life form) and muhapatti (cloth used to cover the mouth) you have used as a monk, that pile would be as high as Mount Meru, yet you did not attain liberation! This is what is said in the scriptures. You embraced initiation, endured all the difficulties of a monastic life, yet did not attain liberation. One may question, is initiation not dharma? Should we not embrace asceticism?
+
+
+
+Let’s understand through an example. A confectioner wanted to make dudhpak (an Indian sweet dish). If he forgets that his aim is to make dudhpak and keeps stirring the milk, then the milk will become milk cake (mavo). Similarly, without the aim of liberation, if someone adopts asceticism and follows the necessary code of conduct etc., instead of being liberated, he will be born as a celestial being. He became a monk without the aim of liberation, or connection with the soul. Not only that, he was not even aware of this, nor did he have the right understanding to make any effort in that direction. This is what is seen in today’s world. It’s not that austerities or rituals are not observed, but where is the introspection? Where is the discrimination between the self and non-self? Where is the connection with the soul?
+
+
+
+People perform rituals without becoming spiritual. This is not said to negate rituals but to emphasise the need for the right aim of spirituality. The Enlightened Ones ask you to introspect and You keep listening to lectures, but what are your thoughts and feelings at the moment? Do you check yourself? Do you practise discriminating between the self and the non-self? Do you practise self-remembrance? You may ask what that means - simply remember that you are an observer, and for you, discrimination means that the external can neither bring you benefit nor cause you harm. You have embraced initiation infinite times. You became the leader of the congregation infinite times. You gave such impactful discourses that people left their houses to embrace initiation after listening to your discourses. Did you do all these things without the aim of liberation? All these rituals were very tough. Why did you endure much pain as an ascetic? Yes, these activities can be done without the aim of liberation, say the Enlightened Ones.
+
+
+
+A soul, who has not yet reached the last cycle of transmigration, may perform several auspicious activities without the aim of liberation. He is interested only in worldly pleasures. He does not even like to talk about liberation. He likes happiness and dislikes unhappiness. So, if someone tells him, “If you embrace monkhood, you will enjoy several pleasures in the celestial abode in your next birth,” he will immediately agree, because he loves pleasures. He is ready to endure a little misery if there is higher happiness in store for him. Sometimes people embrace initiation because they are scared of going to the hellish abode. Sometimes it is because of tradition that someone embraces initiation. Sometimes people embrace initiation or observe austerities to please the people around them. Others should not feel bad, so they embrace initiation or fast for eight days. Sometimes they want appreciation or want to avoid condemnation. Sometimes it is to boost their ego. But there is no aim of liberation.
+
+
+
+Just performing rituals is not practising dharma. You must be aware of your thoughts, feelings, and aim. If there is no transformation within, you cannot attain self-realisation. All success on the spiritual path depends on inner work. “*You have heard the scriptures infinite times, you have pursued knowledge infinite times, you have taken complete renunciation infinite times, you have attained the position of Head of the congregation infinite times*” All these things are external activities but nothing has happened within. External rituals are not negated, they are not wrong, but they should be accompanied by inner transformation too. We always think that someone who is performing auspicious activities has auspicious feelings. But this is not necessary. Auspicious activities can be performed with inauspicious feelings. Someone engaged in inauspicious activities can have good feelings as well. It is not necessary that everyone wearing white has a pure heart, which is how we tend to think. Anything is possible - it must be checked.
+
+
+
+A hunter wanted to catch birds, so he spread a net on the ground. He scattered grains on top of the net. Then he hid behind the tree and waited silently, so the birds could eat the grains. Were his actions prompted by love for the birds? Just then, someone else saw the whole drama, so he started clapping loudly and did not let the birds go near the grains. Was he a cruel person? He did not let a single bird come towards the net. In reality, the one who made noise and did not let the birds eat was a better person.
+
+
+
+A surgeon makes an incision on someone’s stomach. If you just saw the outer activity, you might feel that there is no difference between a surgeon and a murderer. But the surgeon is never jailed for cutting open the stomach. On the contrary, he gets his fees, compliments and even gifts. This is because his intention is to save the person. You cannot come to any conclusions just by observing rituals, you have to know his feelings while performing the ritual, which is dependent on his aim behind the act.
+
+
+
+Many people argue that if they are given poison, they will die, irrespective of whether they have consumed it happily or unhappily. If you take a purgative, it will have its effect irrespective of whether you took it voluntarily or forcefully. In the same way, once certain rituals are performed, the doer should attain liberation; having met an Enlightened One, and having learnt the importance of feelings and thoughts, etc., how can you not attain liberation? Does that Enlightened One not have that much power?
+
+
+
+There is no doubt about the power of the rituals or the Enlightened One. But both of them require your worthiness. You must have the potential and eligibility to walk the path. If you are not interested in having clear bowel movements, you will go out and eat fritters after having the purgative. You may have climbed aboard the steamer of the Enlightened One, but if you are not interested, you will only be complaining. Others will ask you to get out before the steamer starts. Even if you begin the journey, you will jump out on the way and not reach the destination. So, your readiness is just as important. All these rituals are not wrong. Initiation is not wrong. Gaining knowledge or listening to the scriptures is not wrong. But they should be done with the right aim. As an aspirant, you observed restraints, regulations, self-control, renunciation, detachment, etc.- all these things are shown negatively in ‘Yam Niyam’ as having born no fruits, and the same things have been written in ‘Apurva Avasar’ positively, as things which must be practised with the right aim.
+
+
+
+You have to understand the Enlightened One properly. Otherwise, you will choose to follow only that which you like. You should have the aim of self-realisation and you should attempt to connect with the Self. You are more interested in rituals and scriptures, but you should be interested in the soul, in spirituality. What does spirituality mean? It means you should focus on the soul, your mind should turn within. If that is happening, you are on the right path.
+
+
+
+In today’s society, religious people keep asking their disciples to simply follow certain rituals. But how many of them talk about the aim of self-realisation? They have no understanding of spirituality. They do not have any enthusiasm for spirituality and they do not even work towards it. They do not understand soul-consciousness. They ask you to do the ritual of samayik, but they do not teach you to remain in equanimity for 48 minutes. They should show you the purpose and goal of samayik, what should be checked after samayik? All these things are never discussed. There is neither introspection, nor discrimination nor connection with the soul. Why have these been forgotten?
+
+
+
+Someone had worked in the railway for 50 years. It was time for him to retire, so he was applauded and given gifts for his work. He was even asked to give a short speech on what he had done for 50 long years. He climbed on stage and announced, “On the day I joined the railways, I was given a hammer and told that when any train came to the station, I should hammer all the wheels of the train, and say, “Everything is alright.” The gathering was silent on hearing this. They realised that many accidents may have been caused by him. He should have actually been checking the wheels and reporting any concerns, but he just said that everything was alright.
+ So also, when you fasted for 8 days, you had to introspect, check yourself - but did you do that? If not, there was nothing spiritual in your activity. Nonetheless, you will be given a feast on the 9th day - parnu, because you fasted. But you missed out on an opportunity.
+
+
+
+On the first day of Paryushan, a boy saw everyone else fasting around him. He also decided to fast. He fasted for eight days. The family was very happy and held a party in his honour. Everyone appreciated the boy as a ‘good and religious boy’. When he grew up, he went to the hostel. Paryushan came and nobody was fasting. His friends asked him to be modern. Now he was being appreciated for being ‘modern’. This is nothing but herd mentality - do whatever everyone does, so you are not the odd one out and you are also appreciated. A spiritual aspirant has a goal a purpose and a checklist. He examines whether his rituals were done properly or not. If you are taught the right values with the right goal and purpose, you will remain steadfast even when go to university to study. You would not mind even if you become the odd person but you will not compromise on your spiritual values. This is because it has gone into your belief system and it is not on the superficial level. You have understood and realised what you want. It is your choice to do something. You are not doing anything because your family follows Jainism. You are doing it because you want to pass through the process of cleansing. The Enlightened One shows the right process. Each act should be practised with inner connection and discrimination, whether it is bhakti, satsang, fasting, or meditation.
+
+
+
+There was a very handsome prince of Iran. But he had a hunch. A lot of medicines were tried, but nothing happened. A wise doctor told his relatives, “Do not keep reminding him of his hunch. Do not do anything, as he is going into low confidence. Make a statue of him without a hunch and place it at the entrance of his bedroom.” The advice was followed. Every time the prince went in and out of the room, he admired the statue, and put in a little effort daily to get rid of his hunch. One fine day, his hunch disappeared. You also remind yourself, “I am the soul, I am a non-doer, I am pure, I am enlightened, I am an abode of bliss.” Do not say anything about the negativities of anger, desires, ego, etc. Every day if you do this exercise religiously, you will get rid of impurities and go towards the connection with the self. You can do this through bhakti, meditation, swadhyay, seva or any means. But in every activity of yours, you should have one thing in your mind, “I am the soul, I am a non-doer, I am pure, I am enlightened, I am an abode of bliss.” This awareness should be there even while eating.
+
+
+
+There is a Chinese story. A Chinese man went to a jewellery shop and asked the salesman to show him gold ornaments. He took the ornaments and ran from there. Naturally, he was caught by the people. Someone asked him, “Don’t you have a sense that you will get caught in the market place?” The man said, “I was so greedy for gold that I could not see anything but gold.” One fine day, you won’t see anything else but the soul. This is possible if you constantly do the right exercises constantly. Become spiritual from being ritual under the guidance of an Enlightened One.

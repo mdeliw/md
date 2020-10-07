@@ -339,6 +339,8 @@ List<String> strings = Stream.concat(first, second)
     .collect(Collectors.toList());
 ```
 
+###
+
 ### Lazy Stream - wip
 
 ## Comparators and Collectors
@@ -492,5 +494,27 @@ CompletableFuture<Integer> completableFuture =
 System.out.println(completableFuture.get());
 
 
+```
+
+## Common Code
+
+### Create Array with random values within a range
+
+```java
+Random r = new Random();
+// 100 elements, range of -10 to 20
+int[] arr = r.ints(100, -10, 20).toArray();
+```
+
+### Print an Array
+
+```java
+Arrays.toString(arr);
+```
+
+### Find a max in Array
+
+```java
+int max = Arrays.stream(arr).max().getAsInt();
 ```
 

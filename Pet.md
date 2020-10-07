@@ -189,4 +189,119 @@ http://www.mrsplantintexas.com/2015/05/homemade-whole-foods-plant-based-vegan.ht
     - https://www.youtube.com/watch?v=yF3gPo0TsbE
     - https://www.youtube.com/watch?v=cVIXeFTUx7U
     - https://www.speedyjig.com/
+- Shampoo
+  - https://www.dogsnaturallymagazine.com/4-diy-essential-oil-recipes-for-your-dog/
+  - https://moderndogmagazine.com/articles/diy-dry-shampoo-dogs/91996
+  - https://shop.drbronner.com/body-care
 
+## Homemade-Shampoo
+
+https://www.thelabradorsite.com/homemade-dog-shampoo-recipes/
+
+For dogs, the natural skin pH range is between 6 and 8.5.
+
+**Acidic Ingredients**
+
+- Lemon juice: Acidic, pH of 2.2.
+- Aloe vera: Acidic, pH of 5.
+- Apple cider vinegar: Acidic, pH of 2.8.
+- White vinegar: Acidic, pH of 2.4.
+- Oatmeal: Acidic, pH of 5.
+
+**Alkaline Ingredients**
+
+- Baking soda: Alkaline, pH of 8.3.
+- Liquid castile soap (unscented): Alkaline, pH of 8.9.
+- Vegetable glycerine: Neutral/alkaline, pH of 7.0 or higher.
+
+**Neutral**
+
+- Plain water: Neutral, pH of 7.0.
+- Corn starch: Neutral, pH of 7.0.
+- Coconut oil: Neutral, pH of 7.0.
+
+**Essential Oils**
+
+- Lemongrass: This oil is a natural anti-septic that repels insects!
+- Lavender: This oil is naturally calming and repels fleas!
+- Rosemary: This oil repels fleas and moisturizes!
+- Chamomile: This oil soothes allergies and skin irritation!
+- Sweet Marjoram: This oil is a natural anti-bacterial skin healer!
+- Peppermint: This oil is a natural skin healer and cooler and repels insects!
+- Eucalyptus: This oil is a natural skin soother and odor fighter!
+
+### Items
+
+- [Ph Testing Strips](https://www.amazon.com/Testing-Alkaline-Monitor-Accurate-Seconds/dp/B01GFSEB00/ref=sr_1_3?crid=LYRZUVFTGKPC&dchild=1&keywords=ph+test+strips&qid=1601045506&sprefix=ph+%2Caps%2C203&sr=8-3)
+- Castile Soap
+  - https://www.amazon.com/Dr-Bronners-Pure-Castile-Liquid-Value/dp/B001ET72C0/ref=sr_1_2?crid=2YCF7CHD2V61D&dchild=1&keywords=dr+bronners+castile+soap+almond&qid=1601046346&sprefix=dr+bronners+castile+soap+a%2Caps%2C212&sr=8-2
+  - https://www.amazon.com/Dr-Bronner-Peppermint-Castile-Certified/dp/B074T2N24P/ref=sr_1_5?crid=1Y466NGKEBBRB&dchild=1&keywords=dr+bronners+castile+soap&qid=1601046271&sprefix=dr+bron%2Caps%2C258&sr=8-5
+  - https://www.amazon.com/Almona-Castile-Liquid-Unscented-Gallon/dp/B00WPSKTBA/ref=sr_1_9?crid=36MNCYCV6ZIQZ&dchild=1&keywords=castile+soap&qid=1601045833&sprefix=casti%2Caps%2C211&sr=8-9
+
+### Calming Spray
+
+<img src="Pet.assets/image-20200925075502599.png" alt="image-20200925075502599" style="zoom:25%;" />
+
+### Simple Shampoo
+
+<img src="Pet.assets/image-20200925075554212.png" alt="image-20200925075554212" style="zoom:25%;" />
+
+### Shampoo with Coconut Oil
+
+Makes one pint. What you’ll need
+
+- 1 cup Dr. Bronner’s Pure Castile Soap (I love the mild Hemp Almond scent)
+- 1 Tablespoon coconut oil
+- 1/4 cup apple cider vinegar
+- 2-3 drop pure essential oil (optional)
+
+How to make it
+
+1. Add all the ingredients to a plastic bottle, put the lid on and shake, shake, shake! You may want to thin it slightly with a little warm water.
+2. When you’re ready to use, shake the bottle again, and lather up.
+
+### Oatmeal Shampoo
+
+You will need:
+
+- 1 cup oatmeal
+- 1/2 cup baking soda
+- 1 quart warm water
+
+How to:
+
+In a food processor or coffee grinder, grind oatmeal until it’s a flour. Pour it into a bowl, and stir in the baking soda. Add the warm water and stir until well incorporated. When you’re ready to use it, get your dog wet. Lather her (or him) up with the oatmeal shampoo and allow it to sit for 5 minutes if possible. Rinse off, dry it off.
+
+### Standard Shampoo
+
+You’ve got your dish detergent and white vinegar, now all you need is a spray bottle. The mixture process is simple and requires just three steps:
+
+- 2 cups of warm water to the bottle
+- ½ cup of white vinegar
+- ¼ cup of Lavendar-scented dish detergents
+
+
+
+### Dry Shampoo
+
+You will need: 
+
+- ½ cup cornstarch
+- ½ cup baking soda
+- 3–5 drops of lavender essential oil
+
+How to: 
+
+1. Combine all ingredients into a container with a shaker top (spice or seasoning jars work well).
+
+2. Brush your dog first then shake on the dry shampoo.
+
+3. Rub through your dog’s coat with your hands. 
+
+4. Brush again and then dust off your dog with an old towel.
+
+
+
+### Deodarant
+
+<img src="Pet.assets/image-20200925075652292.png" alt="image-20200925075652292" style="zoom:25%;" />
